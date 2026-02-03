@@ -5,6 +5,7 @@ public:
     int removeElement(vector<int>& nums, int val) {
         int n= nums.size();
         int p=n-1;//pointer at last element
+        //this can also be atest
         for(int i=0;i<n;i++)
         {
             if(nums[i]==val)//when we encounter a val
